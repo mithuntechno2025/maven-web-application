@@ -4,7 +4,10 @@ node{
 	echo "The Node Name is: ${env.NODE_NAME}"
 	echo "The Job Name is: ${env.JOB_NAME}"
 	echo "The Jenkins Home is: ${env.JENKINS_HOME}"
-	
+
+	properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), 
+		pipelineTriggers([pollSCM('* * * * * ')])])
+
     def mavenHome = tool name: 'maven3.9.10'
 	
     stage('CheckOutCode'){
