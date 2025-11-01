@@ -26,7 +26,6 @@ node{
 	
     stage('DeployOnTomcat'){
         sshagent(['dd5149fc-bf81-472d-b21e-ab9459f8cbef']) {
-		   sh "chmod -R 777 /opt/web-server/apache-tomcat-9.0.109/webapps"
            sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.5.233:/opt/web-server/apache-tomcat-9.0.109/webapps/"
       }
     }
