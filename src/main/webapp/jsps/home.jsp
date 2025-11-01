@@ -13,6 +13,7 @@
 <h1 align="center">Welcome to Mithun Technologies Private Ltd. Ph No: +91-9980923226, +91-9980923216,Bengaluru,Karnataka,India</h1>
 <h1 align="center">Rahul Khairnar Mithun Technologies- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect & Terraform in Bangalore India.Teaching Real Time scnerios</h1>
 <h1> Trainer Name is: Bhaskar Reddy Lacchannagari</h1>
+<h1> Student Name is: Rahul Khairnar</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
